@@ -130,5 +130,5 @@ MonoBehaviour:
   target: {fileID: 0}
   rotationSpeed: 1000
   zoomSpeed: 200
-  minZ: -21
-  maxZ: -2
+  minZoom: -5
+  maxZoom: 15

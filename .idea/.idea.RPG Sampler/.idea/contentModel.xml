@@ -9,6 +9,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Asset Packs" t="Include">
+          <e p="Animations" t="Include">
+            <e p="README - Usage Rights for these assets 1.txt" t="Include" />
+          </e>
           <e p="Synty - Polygon Student Sample" t="Include">
             <e p="README - Usage Rights for these assets.txt" t="Include" />
           </e>
@@ -33,9 +36,23 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="CameraTester.cs" t="Include" />
-          <e p="FollowCamera.cs" t="Include" />
-          <e p="Mover.cs" t="Include" />
+          <e p="Combat" t="Include">
+            <e p="CombatTarget.cs" t="Include" />
+            <e p="Fighter.cs" t="Include" />
+            <e p="Health.cs" t="Include" />
+          </e>
+          <e p="Controller" t="Include">
+            <e p="PlayerController.cs" t="Include" />
+          </e>
+          <e p="Core" t="Include">
+            <e p="ActionScheduler.cs" t="Include" />
+            <e p="CameraTester.cs" t="Include" />
+            <e p="FollowCamera.cs" t="Include" />
+            <e p="IAction.cs" t="Include" />
+          </e>
+          <e p="Movement" t="Include">
+            <e p="Mover.cs" t="Include" />
+          </e>
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
