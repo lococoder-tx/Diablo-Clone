@@ -8,12 +8,57 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Asset Packs" t="Include">
-          <e p="Animations" t="Include">
-            <e p="README - Usage Rights for these assets 1.txt" t="Include" />
+        <e p="Fantasy Skybox FREE" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="GE_FantasySkyboxFREE_Demo.cs" t="Include" />
+              <e p="GE_FantasySkyboxFREE_UIs.cs" t="Include" />
+            </e>
           </e>
-          <e p="Synty - Polygon Student Sample" t="Include">
-            <e p="README - Usage Rights for these assets.txt" t="Include" />
+          <e p="Fog and Ambient references.txt" t="Include" />
+          <e p="Readme.txt" t="Include" />
+        </e>
+        <e p="Game" t="Include">
+          <e p="Asset Packs" t="Include">
+            <e p="Animations" t="Include">
+              <e p="README - Usage Rights for these assets 1.txt" t="Include" />
+            </e>
+            <e p="Synty - Polygon Student Sample" t="Include">
+              <e p="README - Usage Rights for these assets.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Combat" t="Include">
+              <e p="CombatTarget.cs" t="Include" />
+              <e p="Fighter.cs" t="Include" />
+            </e>
+            <e p="Controller" t="Include">
+              <e p="AIController.cs" t="Include" />
+              <e p="PatrolPath.cs" t="Include" />
+              <e p="PlayerController.cs" t="Include" />
+            </e>
+            <e p="Core" t="Include">
+              <e p="ActionScheduler.cs" t="Include" />
+              <e p="CameraTester.cs" t="Include" />
+              <e p="FollowCamera.cs" t="Include" />
+              <e p="Health.cs" t="Include" />
+              <e p="IAction.cs" t="Include" />
+              <e p="MainPlayer.cs" t="Include" />
+            </e>
+            <e p="Movement" t="Include">
+              <e p="Mover.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="GE Common Assets" t="Include">
+          <e p="GE Toggle Full Screen" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="GE_ToggleFullScreenUI.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="GE_UIResponder.cs" t="Include" />
           </e>
         </e>
         <e p="SampleScenes" t="Include">
@@ -33,25 +78,6 @@
           </e>
           <e p="Shaders" t="Include">
             <e p="Skybox-Procedural.shader" t="Include" />
-          </e>
-        </e>
-        <e p="Scripts" t="Include">
-          <e p="Combat" t="Include">
-            <e p="CombatTarget.cs" t="Include" />
-            <e p="Fighter.cs" t="Include" />
-            <e p="Health.cs" t="Include" />
-          </e>
-          <e p="Controller" t="Include">
-            <e p="PlayerController.cs" t="Include" />
-          </e>
-          <e p="Core" t="Include">
-            <e p="ActionScheduler.cs" t="Include" />
-            <e p="CameraTester.cs" t="Include" />
-            <e p="FollowCamera.cs" t="Include" />
-            <e p="IAction.cs" t="Include" />
-          </e>
-          <e p="Movement" t="Include">
-            <e p="Mover.cs" t="Include" />
           </e>
         </e>
         <e p="Standard Assets" t="Include">
