@@ -37,7 +37,7 @@ namespace RPG.Controller
             if (InteractWithMovement())
                 return;
             
-            print("all methods in playerController return false...");
+          //  print("all methods in playerController return false...");
         }
 
         private bool InteractWithCombat()

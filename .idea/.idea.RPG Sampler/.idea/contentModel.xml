@@ -44,9 +44,19 @@
               <e p="Health.cs" t="Include" />
               <e p="IAction.cs" t="Include" />
               <e p="MainPlayer.cs" t="Include" />
+              <e p="PersistentObjectSpawner.cs" t="Include" />
+              <e p="SceneLoader.cs" t="Include" />
             </e>
             <e p="Movement" t="Include">
               <e p="Mover.cs" t="Include" />
+            </e>
+            <e p="Saving" t="Include">
+              <e p="SavingSystem.cs" t="Include" />
+              <e p="SavingWrapper.cs" t="Include" />
+            </e>
+            <e p="SceneManagement" t="Include">
+              <e p="Fader.cs" t="Include" />
+              <e p="Portal.cs" t="Include" />
             </e>
           </e>
         </e>

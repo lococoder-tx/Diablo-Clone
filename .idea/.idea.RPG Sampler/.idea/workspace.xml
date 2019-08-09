@@ -5,303 +5,39 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Bow.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Attack1.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Attack1.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Club.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Club/RPG-Character@2Hand-Club-Attack8.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Club/RPG-Character@2Hand-Club-Attack8.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Spear.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Attack2.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Attack2.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Attack3.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Attack3.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Sword.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack5.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack5.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Death.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Death/RPG-Character@Armed-Death1.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Death/RPG-Character@Armed-Death1.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Item.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Item/RPG-Character@Item-Attack-L2.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Item/RPG-Character@Item-Attack-L2.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/README - Usage Rights for these assets 1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/README - Usage Rights for these assets 1.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Sword.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Sword/RPG-Character@Sword-Attack-R6.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Sword/RPG-Character@Sword-Attack-R6.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/HumanoidIdle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/HumanoidIdle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/Unarmed-Attack-L3C.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/Unarmed-Attack-L3C.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Black.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Black.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Blue.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Blue.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Orange.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Orange.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Red.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Red.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_Water_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_Water_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureTexture_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureTexture_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Black.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Black.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Orange.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Orange.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Mat_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Mat_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Fire_FX.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Fire_FX.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Mat_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Mat_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Tex_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Tex_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Texture_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Texture_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Texture_01_Vikings.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Texture_01_Vikings.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/Characters_POLYGON_Knights.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/Characters_POLYGON_Knights.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Fence_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Fence_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Base_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Base_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Door_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Door_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Roof_Wood_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Roof_Wood_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Hut_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Hut_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Village_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Village_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Bush_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Bush_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_05.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_05.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Flower_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Flower_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_Large_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_Large_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMound_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMound_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMounds_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMounds_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Hill_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Hill_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Rock_015.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Rock_015.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tile_Grass_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tile_Grass_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_TreeLog_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_TreeLog_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_010.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_010.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Crate_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Crate_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Pumpkin_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Pumpkin_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Rapier_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Rapier_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Sword_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Sword_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/FX_Fire.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/FX_Fire.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Fence_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Fence_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Base_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Base_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Door_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Door_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Roof_Wood_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Roof_Wood_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Bush_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Bush_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_FloorTile_05.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_FloorTile_05.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Flower_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Flower_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_Large_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_Large_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMound_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMound_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMounds_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMounds_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Hill_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Hill_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Rock_015.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Rock_015.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tile_Grass_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tile_Grass_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_TreeLog_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_TreeLog_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Water.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Water.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Pumpkin_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Pumpkin_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Rapier_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Rapier_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Sword_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Sword_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/README - Usage Rights for these assets.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/README - Usage Rights for these assets.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Black.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Orange.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/PolyAdventureTexture_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/PolyAdventureTexture_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/PolygonSamurai_Tex_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/PolygonSamurai_Tex_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01_Vikings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01_Vikings.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Brown Dirt.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Brown Dirt.BMP.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Brown Mud.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Brown Mud.BMP.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cliff.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cliff.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cobblestone Floor Dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cobblestone Floor Dark.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cobblestone Floor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cobblestone Floor.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cracked Soil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cracked Soil.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Green Grass.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Green Grass.BMP.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Light Green Grass.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Light Green Grass.BMP.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Character.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Character.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game/Character.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game/Character.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game/Enemy Soldier 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game/Enemy Soldier 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sandboxScene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sandboxScene/Directional Light.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sandboxScene/Directional Light.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sandboxScene/Environment.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sandboxScene/Environment.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sandboxScene/FollowCamera.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sandboxScene/FollowCamera.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sandboxScene/Target.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sandboxScene/Target.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sandboxScene/Terrain.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sandboxScene/Terrain.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SampleScenes/Materials/SkyboxProcedural.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SampleScenes/Materials/SkyboxProcedural.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SampleScenes/Materials/TealSmooth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SampleScenes/Materials/TealSmooth.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SampleScenes/Models/Materials/SpaceshipGlow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SampleScenes/Models/Materials/SpaceshipGlow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-1_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-1_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-1_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-1_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/PlayerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/PlayerController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CameraTester.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CameraTester.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/FollowCamera.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/FollowCamera.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/IAction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/IAction.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain/Layer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain/Layer/Dirt Grass.terrainlayer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain/Layer/Dirt Grass.terrainlayer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain/Layer/Green Grass.terrainlayer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain/Layer/Green Grass.terrainlayer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain/New Terrain.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain/New Terrain.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Character.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Character.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Character.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Character.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Enemy Soldier 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Enemy Soldier 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/Camera System (cinemachine).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/Camera System (cinemachine).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/FollowCamera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/FollowCamera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/Target.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/Target.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/Terrain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/Terrain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/core/Directional Light.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/core/Directional Light.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/core/Environment.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/sandboxScene/core/Environment.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Sandbox.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Sandbox.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Sandbox/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Sandbox/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Sandbox2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Sandbox2.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/FollowCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/FollowCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -314,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-990">
               <folding>
                 <marker date="1564970005924" expanded="true" signature="6:114" ph="..." />
                 <marker date="1564970005924" expanded="true" signature="116:158" ph="/* uses: ... */" />
@@ -339,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/AIController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
+            <state relative-caret-position="34">
+              <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
               <folding>
                 <marker date="1565027600411" expanded="false" signature="6:72" ph="..." />
                 <marker date="1565027600411" expanded="true" signature="98:4875" ph="{...}" />
@@ -375,9 +111,139 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Saving/SavingSystem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <marker date="1565313790623" expanded="true" signature="6:78" ph="..." />
+                <marker date="1565313790623" expanded="true" signature="101:405" ph="{...}" />
+                <marker date="1565313790623" expanded="true" signature="154:403" ph="{...}" />
+                <marker date="1565313790623" expanded="true" signature="202:292" ph="{...}" />
+                <marker date="1565313790623" expanded="true" signature="335:397" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Saving/SavingWrapper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+              <folding>
+                <marker date="1565313790553" expanded="false" signature="6:78" ph="..." />
+                <marker date="1565313790553" expanded="true" signature="101:219" ph="{...}" />
+                <marker date="1565313790553" expanded="true" signature="150:217" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/FollowCamera.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="55" selection-start-line="55" selection-end-line="56" />
+              <folding>
+                <marker date="1565228818191" expanded="true" signature="20:70" ph="/* Basic Camera Controller Script ... */" />
+                <marker date="1565228818191" expanded="true" signature="90:2809" ph="{...}" />
+                <marker date="1565228818191" expanded="true" signature="138:2807" ph="{...}" />
+                <marker date="1565228818191" expanded="true" signature="938:1152" ph="{...}" />
+                <marker date="1565228818191" expanded="true" signature="1222:1272" ph="{...}" />
+                <marker date="1565228818191" expanded="true" signature="1311:1815" ph="{...}" />
+                <marker date="1565228818191" expanded="true" signature="1655:1719" ph="{...}" />
+                <marker date="1565228818191" expanded="true" signature="1745:1805" ph="{...}" />
+                <marker date="1565228818191" expanded="true" signature="1856:2260" ph="{...}" />
+                <marker date="1565228818191" expanded="true" signature="2296:2801" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/Health.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <marker date="1564969290419" expanded="true" signature="6:66" ph="..." />
+                <marker date="1564969290419" expanded="true" signature="86:1293" ph="{...}" />
+                <marker date="1564969290419" expanded="true" signature="127:1291" ph="{...}" />
+                <marker date="1564969290419" expanded="true" signature="310:369" ph="{...}" />
+                <marker date="1564969290419" expanded="true" signature="415:636" ph="{...}" />
+                <marker date="1564969290419" expanded="true" signature="576:626" ph="{...}" />
+                <marker date="1564969290419" expanded="true" signature="664:1198" ph="{...}" />
+                <marker date="1564969290419" expanded="true" signature="999:1142" ph="{...}" />
+                <marker date="1564969290419" expanded="true" signature="1228:1275" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/SceneManagement/Portal.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+              <folding>
+                <marker date="1565311390880" expanded="true" signature="6:243" ph="..." />
+                <marker date="1565311390880" expanded="true" signature="290:3016" ph="{...}" />
+                <marker date="1565311390880" expanded="true" signature="337:3014" ph="{...}" />
+                <marker date="1565311390880" expanded="true" signature="950:996" ph="{...}" />
+                <marker date="1565311390880" expanded="true" signature="1066:1314" ph="{...}" />
+                <marker date="1565311390880" expanded="true" signature="1190:1304" ph="{...}" />
+                <marker date="1565311390880" expanded="true" signature="1356:2256" ph="{...}" />
+                <marker date="1565311390880" expanded="true" signature="2297:2649" ph="{...}" />
+                <marker date="1565311390880" expanded="true" signature="2423:2600" ph="{...}" />
+                <marker date="1565311390880" expanded="true" signature="2515:2586" ph="{...}" />
+                <marker date="1565311390880" expanded="true" signature="2704:2990" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/SceneManagement/Fader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="12" selection-end-column="13" />
+              <folding>
+                <marker date="1565306381699" expanded="true" signature="6:126" ph="..." />
+                <marker date="1565306381699" expanded="true" signature="157:1173" ph="{...}" />
+                <marker date="1565306381699" expanded="true" signature="198:1171" ph="{...}" />
+                <marker date="1565306381699" expanded="true" signature="286:920" ph="FadeRegion" />
+                <marker date="1565306381699" expanded="true" signature="458:655" ph="{...}" />
+                <marker date="1565306381699" expanded="true" signature="529:645" ph="{...}" />
+                <marker date="1565306381699" expanded="true" signature="708:892" ph="{...}" />
+                <marker date="1565306381699" expanded="true" signature="766:882" ph="{...}" />
+                <marker date="1565306381699" expanded="true" signature="997:1156" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/PersistentObjectSpawner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <marker date="1565305712604" expanded="true" signature="6:92" ph="..." />
+                <marker date="1565305712604" expanded="true" signature="112:733" ph="{...}" />
+                <marker date="1565305712604" expanded="true" signature="172:731" ph="{...}" />
+                <marker date="1565305712604" expanded="true" signature="325:505" ph="{...}" />
+                <marker date="1565305712604" expanded="true" signature="552:725" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/PatrolPath.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
               <folding>
                 <marker date="1564976722444" expanded="true" signature="6:92" ph="..." />
                 <marker date="1564976722444" expanded="true" signature="118:909" ph="{...}" />
@@ -401,14 +267,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/AIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/MainPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/PersistentObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/PatrolPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Saving/SavingWrapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Saving/SavingSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/AIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/SceneManagement/Portal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/PatrolPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Movement/Mover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/SceneManagement/Fader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/FollowCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -438,6 +315,15 @@
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" />
         <option value="$PROJECT_DIR$/Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/FollowCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/Portal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/MainPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/PersistentObjectSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SceneManagement/Fader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SceneManagement/Portal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Saving/SavingSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Saving/SavingWrapper.cs" />
       </list>
     </option>
   </component>
@@ -448,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
     <option name="y" value="126" />
     <option name="width" value="1440" />
@@ -459,6 +345,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
@@ -469,7 +358,56 @@
             </path>
             <path>
               <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Packages" type="4e2708dd:PackagesRoot" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Game" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Game" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Game" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Combat" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Game" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Controller" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Game" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Core" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Game" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Movement" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Game" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Saving" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Game" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="SceneManagement" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
           <select />
@@ -478,9 +416,6 @@
         <option name="show-project-names" value="true" />
       </pane>
       <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,11 +484,13 @@
       <workItem from="1565025336255" duration="1108000" />
       <workItem from="1565027458963" duration="1455000" />
       <workItem from="1565056384044" duration="6294000" />
+      <workItem from="1565223305601" duration="9544000" />
+      <workItem from="1565284909104" duration="17579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107660000" />
+    <option name="totallyTimeSpent" value="134783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,10 +502,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20298348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20511454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -595,7 +531,7 @@
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20298348" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20511454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -679,46 +615,6 @@
             <marker date="1520267801000" expanded="true" signature="4096:4433" ph="{...}" />
             <marker date="1520267801000" expanded="true" signature="4637:4897" ph="{...}" />
             <marker date="1520267801000" expanded="true" signature="4905:5013" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1564970005924" expanded="true" signature="6:114" ph="..." />
-            <marker date="1564970005924" expanded="true" signature="116:158" ph="/* uses: ... */" />
-            <marker date="1564970005924" expanded="true" signature="179:3153" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="231:3151" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="795:969" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="1000:1649" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="1202:1342" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="1400:1626" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="1681:1848" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="1896:2266" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="1939:2058" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="2108:2256" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="2296:2399" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="2459:2584" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="2634:2724" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="2757:2804" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="2850:2974" ph="{...}" />
-            <marker date="1564970005924" expanded="true" signature="3019:3145" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/PatrolPath.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1564976722444" expanded="true" signature="6:92" ph="..." />
-            <marker date="1564976722444" expanded="true" signature="118:909" ph="{...}" />
-            <marker date="1564976722444" expanded="true" signature="166:907" ph="{...}" />
-            <marker date="1564976722444" expanded="true" signature="268:901" ph="{...}" />
-            <marker date="1564976722444" expanded="true" signature="381:891" ph="{...}" />
-            <marker date="1564976722444" expanded="true" signature="561:717" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -814,10 +710,214 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Movement/Mover.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1564979580892" expanded="false" signature="6:116" ph="..." />
+            <marker date="1564979580892" expanded="true" signature="140:1925" ph="{...}" />
+            <marker date="1564979580892" expanded="true" signature="152:192" ph="/* scripts uses: ... */" />
+            <marker date="1564979580892" expanded="true" signature="240:1923" ph="{...}" />
+            <marker date="1564979580892" expanded="true" signature="255:309" ph="/* [SerializeField] Transform target; ... */" />
+            <marker date="1564979580892" expanded="true" signature="544:733" ph="{...}" />
+            <marker date="1564979580892" expanded="true" signature="799:919" ph="{...}" />
+            <marker date="1564979580892" expanded="true" signature="969:1061" ph="{...}" />
+            <marker date="1564979580892" expanded="true" signature="1110:1218" ph="{...}" />
+            <marker date="1564979580892" expanded="true" signature="1265:1622" ph="{...}" />
+            <marker date="1564979580892" expanded="true" signature="1652:1728" ph="{...}" />
+            <marker date="1564979580892" expanded="true" signature="1779:1908" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/SceneLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <marker date="1565298339074" expanded="true" signature="6:113" ph="..." />
+            <marker date="1565298339074" expanded="true" signature="133:1378" ph="{...}" />
+            <marker date="1565298339074" expanded="true" signature="180:1376" ph="{...}" />
+            <marker date="1565298339074" expanded="true" signature="606:665" ph="{...}" />
+            <marker date="1565298339074" expanded="true" signature="731:1021" ph="{...}" />
+            <marker date="1565298339074" expanded="true" signature="797:867" ph="{...}" />
+            <marker date="1565298339074" expanded="true" signature="884:998" ph="{...}" />
+            <marker date="1565298339074" expanded="true" signature="1109:1218" ph="{...}" />
+            <marker date="1565298339074" expanded="true" signature="1256:1370" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding>
+            <marker date="1565244864439" expanded="false" signature="6:72" ph="..." />
+            <marker date="1565244864439" expanded="true" signature="99:2852" ph="{...}" />
+            <marker date="1565244864439" expanded="true" signature="151:2849" ph="{...}" />
+            <marker date="1565244864439" expanded="true" signature="402:558" ph="{...}" />
+            <marker date="1565244864439" expanded="true" signature="628:1022" ph="{...}" />
+            <marker date="1565244864439" expanded="true" signature="1065:2091" ph="{...}" />
+            <marker date="1565244864439" expanded="true" signature="1497:2054" ph="{...}" />
+            <marker date="1565244864439" expanded="true" signature="2153:2684" ph="{...}" />
+            <marker date="1565244864439" expanded="true" signature="2570:2648" ph="{...}" />
+            <marker date="1565244864439" expanded="true" signature="2726:2843" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/MainPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1564940433558" expanded="false" signature="6:92" ph="..." />
+            <marker date="1564940433558" expanded="true" signature="112:748" ph="{...}" />
+            <marker date="1564940433558" expanded="true" signature="159:746" ph="{...}" />
+            <marker date="1564940433558" expanded="true" signature="353:412" ph="{...}" />
+            <marker date="1564940433558" expanded="true" signature="450:740" ph="{...}" />
+            <marker date="1564940433558" expanded="true" signature="516:586" ph="{...}" />
+            <marker date="1564940433558" expanded="true" signature="603:717" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <folding>
+            <marker date="1564970005924" expanded="true" signature="6:114" ph="..." />
+            <marker date="1564970005924" expanded="true" signature="116:158" ph="/* uses: ... */" />
+            <marker date="1564970005924" expanded="true" signature="179:3153" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="231:3151" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="795:969" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="1000:1649" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="1202:1342" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="1400:1626" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="1681:1848" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="1896:2266" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="1939:2058" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="2108:2256" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="2296:2399" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="2459:2584" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="2634:2724" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="2757:2804" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="2850:2974" ph="{...}" />
+            <marker date="1564970005924" expanded="true" signature="3019:3145" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/PersistentObjectSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <marker date="1565305712604" expanded="true" signature="6:92" ph="..." />
+            <marker date="1565305712604" expanded="true" signature="112:733" ph="{...}" />
+            <marker date="1565305712604" expanded="true" signature="172:731" ph="{...}" />
+            <marker date="1565305712604" expanded="true" signature="325:505" ph="{...}" />
+            <marker date="1565305712604" expanded="true" signature="552:725" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/SceneManagement/Fader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="12" selection-end-column="13" />
+          <folding>
+            <marker date="1565306381699" expanded="true" signature="6:126" ph="..." />
+            <marker date="1565306381699" expanded="true" signature="157:1173" ph="{...}" />
+            <marker date="1565306381699" expanded="true" signature="198:1171" ph="{...}" />
+            <marker date="1565306381699" expanded="true" signature="286:920" ph="FadeRegion" />
+            <marker date="1565306381699" expanded="true" signature="458:655" ph="{...}" />
+            <marker date="1565306381699" expanded="true" signature="529:645" ph="{...}" />
+            <marker date="1565306381699" expanded="true" signature="708:892" ph="{...}" />
+            <marker date="1565306381699" expanded="true" signature="766:882" ph="{...}" />
+            <marker date="1565306381699" expanded="true" signature="997:1156" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/SceneManagement/Portal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+          <folding>
+            <marker date="1565311390880" expanded="true" signature="6:243" ph="..." />
+            <marker date="1565311390880" expanded="true" signature="290:3016" ph="{...}" />
+            <marker date="1565311390880" expanded="true" signature="337:3014" ph="{...}" />
+            <marker date="1565311390880" expanded="true" signature="950:996" ph="{...}" />
+            <marker date="1565311390880" expanded="true" signature="1066:1314" ph="{...}" />
+            <marker date="1565311390880" expanded="true" signature="1190:1304" ph="{...}" />
+            <marker date="1565311390880" expanded="true" signature="1356:2256" ph="{...}" />
+            <marker date="1565311390880" expanded="true" signature="2297:2649" ph="{...}" />
+            <marker date="1565311390880" expanded="true" signature="2423:2600" ph="{...}" />
+            <marker date="1565311390880" expanded="true" signature="2515:2586" ph="{...}" />
+            <marker date="1565311390880" expanded="true" signature="2704:2990" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/FollowCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="55" selection-start-line="55" selection-end-line="56" />
+          <folding>
+            <marker date="1565228818191" expanded="true" signature="20:70" ph="/* Basic Camera Controller Script ... */" />
+            <marker date="1565228818191" expanded="true" signature="90:2809" ph="{...}" />
+            <marker date="1565228818191" expanded="true" signature="138:2807" ph="{...}" />
+            <marker date="1565228818191" expanded="true" signature="938:1152" ph="{...}" />
+            <marker date="1565228818191" expanded="true" signature="1222:1272" ph="{...}" />
+            <marker date="1565228818191" expanded="true" signature="1311:1815" ph="{...}" />
+            <marker date="1565228818191" expanded="true" signature="1655:1719" ph="{...}" />
+            <marker date="1565228818191" expanded="true" signature="1745:1805" ph="{...}" />
+            <marker date="1565228818191" expanded="true" signature="1856:2260" ph="{...}" />
+            <marker date="1565228818191" expanded="true" signature="2296:2801" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/Health.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <marker date="1564969290419" expanded="true" signature="6:66" ph="..." />
+            <marker date="1564969290419" expanded="true" signature="86:1293" ph="{...}" />
+            <marker date="1564969290419" expanded="true" signature="127:1291" ph="{...}" />
+            <marker date="1564969290419" expanded="true" signature="310:369" ph="{...}" />
+            <marker date="1564969290419" expanded="true" signature="415:636" ph="{...}" />
+            <marker date="1564969290419" expanded="true" signature="576:626" ph="{...}" />
+            <marker date="1564969290419" expanded="true" signature="664:1198" ph="{...}" />
+            <marker date="1564969290419" expanded="true" signature="999:1142" ph="{...}" />
+            <marker date="1564969290419" expanded="true" signature="1228:1275" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/PatrolPath.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <marker date="1564976722444" expanded="true" signature="6:92" ph="..." />
+            <marker date="1564976722444" expanded="true" signature="118:909" ph="{...}" />
+            <marker date="1564976722444" expanded="true" signature="166:907" ph="{...}" />
+            <marker date="1564976722444" expanded="true" signature="268:901" ph="{...}" />
+            <marker date="1564976722444" expanded="true" signature="381:891" ph="{...}" />
+            <marker date="1564976722444" expanded="true" signature="561:717" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/AIController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
+        <state relative-caret-position="34">
+          <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
           <folding>
             <marker date="1565027600411" expanded="false" signature="6:72" ph="..." />
             <marker date="1565027600411" expanded="true" signature="98:4875" ph="{...}" />
@@ -843,6 +943,32 @@
             <marker date="1565027600411" expanded="true" signature="4400:4501" ph="{...}" />
             <marker date="1565027600411" expanded="true" signature="4543:4617" ph="{...}" />
             <marker date="1565027600411" expanded="true" signature="4664:4856" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Saving/SavingSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <marker date="1565313790623" expanded="true" signature="6:78" ph="..." />
+            <marker date="1565313790623" expanded="true" signature="101:405" ph="{...}" />
+            <marker date="1565313790623" expanded="true" signature="154:403" ph="{...}" />
+            <marker date="1565313790623" expanded="true" signature="202:292" ph="{...}" />
+            <marker date="1565313790623" expanded="true" signature="335:397" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/Saving/SavingWrapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <marker date="1565313790553" expanded="false" signature="6:78" ph="..." />
+            <marker date="1565313790553" expanded="true" signature="101:219" ph="{...}" />
+            <marker date="1565313790553" expanded="true" signature="150:217" ph="{...}" />
           </folding>
         </state>
       </provider>

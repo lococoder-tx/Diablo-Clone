@@ -8,7 +8,7 @@ namespace RPG.Core
     public class FollowCamera : MonoBehaviour
     {
 
-        [SerializeField] private Transform target;
+        private Transform target;
         [SerializeField] private float rotationSpeed;
         [SerializeField] private float zoomSpeed;
         public bool trackPlayer = true;
@@ -39,6 +39,8 @@ namespace RPG.Core
             defaultCameraTransform = transform;
             canRotate = true;
             canZoom = true;
+            target = MainPlayer.Instance.transform;
+
         }
 
         // Update is called once per frame
