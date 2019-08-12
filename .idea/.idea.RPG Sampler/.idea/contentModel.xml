@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Elijah\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Elijah\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_RPG Sampler.-959561877.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Elijah\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Elijah\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_RPG Sampler.-959561877.00" t="ExcludeRecursive" />
     <e p="C:\Users\Elijah\Projects\Unity\RPG Sampler" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -51,8 +51,10 @@
               <e p="Mover.cs" t="Include" />
             </e>
             <e p="Saving" t="Include">
+              <e p="SaveableEntity.cs" t="Include" />
               <e p="SavingSystem.cs" t="Include" />
               <e p="SavingWrapper.cs" t="Include" />
+              <e p="SerializableVector3.cs" t="Include" />
             </e>
             <e p="SceneManagement" t="Include">
               <e p="Fader.cs" t="Include" />

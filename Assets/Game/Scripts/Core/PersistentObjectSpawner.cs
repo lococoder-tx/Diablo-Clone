@@ -10,7 +10,7 @@ namespace RPG.Core
     {
         [SerializeField] private GameObject persistentObjectPrefab;
 
-        static bool hasSpawned = false;
+        public static bool hasSpawned = false;
         
         private void Awake()
         {

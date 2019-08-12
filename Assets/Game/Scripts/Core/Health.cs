@@ -10,6 +10,7 @@ namespace RPG.Core
         public float currentHealth { get; set; }
         private bool isDead = false;
         private bool removed = false;
+       
         void Start()
         {
             currentHealth = maxHealth;
@@ -43,7 +44,7 @@ namespace RPG.Core
             }
 
 
-            Destroy(this.gameObject, 50f);
+            Destroy(this.gameObject, 5f);
 
         }
 
