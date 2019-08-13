@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using RPG.Core;
 using RPG.Movement;
+using RPG.Saving;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
@@ -53,12 +54,21 @@ namespace RPG.SceneManagement
             
             //fader will persist throughout scenes since it is part of persistentObjects 
             Fader fader = FindObjectOfType<Fader>();
+            SavingWrapper wrapper = FindObjectOfType<SavingWrapper>();
+            
             yield return fader.FadeOut(fadeOutTime);
             
+            //set player to inactive so he cannot be controlled during trans
             MainPlayer.Instance.gameObject.SetActive(false);
+            wrapper.Save();
+            
             
             yield return SceneManager.LoadSceneAsync(sceneToLoad);
+            
+            wrapper.Load();
            
+            
+            //change location of player to other portal's spawn point
             Portal otherPortal = GetOtherPortal();
             UpdatePlayer(otherPortal);
             yield return new WaitForSeconds(betweenFadeTime);

@@ -11,7 +11,10 @@ namespace RPG.Saving
     {
         public void Save(string saveFile)
         {
-            SaveFile(saveFile, CaptureState());
+            //load previous serialized dictionary
+            Dictionary<string, object> state = LoadFile(saveFile);
+            CaptureState(state);
+            SaveFile(saveFile,state);
         }
 
         private void SaveFile(string saveFile, object state)
@@ -57,6 +60,9 @@ namespace RPG.Saving
         private Dictionary<string, object> LoadFile(string saveFile)
         {
             string pathFromSaveFile = GetPathFromSaveFile(saveFile);
+            if (!File.Exists(pathFromSaveFile))
+                return new Dictionary<string, object>();                
+            
             using (FileStream stream = File.Open(pathFromSaveFile, FileMode.Open))
             {
                 BinaryFormatter formatter = new BinaryFormatter();
@@ -67,15 +73,18 @@ namespace RPG.Saving
 
 
         //add items to a serializable dictionary and captures their curretn states
-        private Dictionary<string, object> CaptureState()
+        private void CaptureState(Dictionary<string, object> state)
         {
-            Dictionary<string, object> state = new Dictionary<string, object>();
             foreach (SaveableEntity saveable in FindObjectsOfType<SaveableEntity>())
             {
-                //in this dictionary, each identifier is associated with the object's state
-                state.Add(saveable.GetUniqueIdentifier(), saveable.CaptureState());
+                //in this dictionary, each identifier is associated with the object's state at savetime
+                string uniqueIdentifier = saveable.GetUniqueIdentifier();
+                if(!state.ContainsKey(uniqueIdentifier))
+                    state.Add(uniqueIdentifier, saveable.CaptureState());
+                else
+                    state[uniqueIdentifier] = saveable.CaptureState();
             }
-            return state;
+           
         }
         
    
@@ -87,8 +96,9 @@ namespace RPG.Saving
             {
                 //looks at all saveable entities in scene, and then restores their state based on their old stats
                 //from dictionary entry
-                saveable.RestoreState(state[saveable.GetUniqueIdentifier()]);
-                
+                string uniqueIdentifier = saveable.GetUniqueIdentifier();
+                if(state.ContainsKey(uniqueIdentifier))
+                    saveable.RestoreState(state[uniqueIdentifier]);
             }
         }
         

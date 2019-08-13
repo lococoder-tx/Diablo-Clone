@@ -38,6 +38,8 @@ namespace RPG.SceneManagement
         
         #endregion
 
+       
+        //test method for nested coroutines
         public IEnumerator FadeOutIn(float timeOut = 2f, float timeIn = 2f)
         {
             yield return FadeOut(timeOut);

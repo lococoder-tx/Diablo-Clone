@@ -47,10 +47,10 @@ namespace RPG.Controller
             
 
             //set this guards starting location to first pos on waypoint path
-            if (patrolPath && patrolPath.transform.childCount > 0)
-            {
-                transform.position = patrolPath.transform.GetChild(currentWayPointIndex).position;
-            }
+            //if (patrolPath && patrolPath.transform.childCount > 0)
+            //{
+            //    transform.position = patrolPath.transform.GetChild(currentWayPointIndex).position;
+            //}
         }
         
         void Update()
