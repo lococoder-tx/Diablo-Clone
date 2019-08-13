@@ -52,6 +52,7 @@ namespace RPG.Saving
             }
         }
 
+        //refactor this into different class to reduce dependencies
         private void CancelAction()
         {
             GetComponent<ActionScheduler>().CancelAction();

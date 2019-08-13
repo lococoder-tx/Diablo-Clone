@@ -34,6 +34,7 @@ namespace RPG.Saving
             /*
             string pathFromSaveFile = GetPathFromSaveFile(saveFile);
             print("loading " + pathFromSaveFile);
+
             using (FileStream stream = File.Open(pathFromSaveFile, FileMode.Open))
             { 
                 //deserialize object using binaryFormatter (should return vector3)
@@ -53,20 +54,20 @@ namespace RPG.Saving
 
         }
 
-        private object LoadFile(string saveFile)
+        private Dictionary<string, object> LoadFile(string saveFile)
         {
             string pathFromSaveFile = GetPathFromSaveFile(saveFile);
             using (FileStream stream = File.Open(pathFromSaveFile, FileMode.Open))
             {
                 BinaryFormatter formatter = new BinaryFormatter();
-                return formatter.Deserialize(stream);
+                return (Dictionary<string, object>) formatter.Deserialize(stream);
             }
             
         }
 
 
         //add items to a serializable dictionary and captures their curretn states
-        private object CaptureState()
+        private Dictionary<string, object> CaptureState()
         {
             Dictionary<string, object> state = new Dictionary<string, object>();
             foreach (SaveableEntity saveable in FindObjectsOfType<SaveableEntity>())
@@ -78,19 +79,15 @@ namespace RPG.Saving
         }
         
    
-        private void RestoreState(object state)
+        private void RestoreState( Dictionary<string, object> state)
         {
             if (state == null) return;
-            
-            //we know that state is a dictionary, so typecast is safe
-            Dictionary<string, object> dictionaryofStates = (Dictionary<string, object>) state;
-            
             
             foreach (SaveableEntity saveable in FindObjectsOfType<SaveableEntity>())
             {
                 //looks at all saveable entities in scene, and then restores their state based on their old stats
                 //from dictionary entry
-                saveable.RestoreState(dictionaryofStates[saveable.GetUniqueIdentifier()]);
+                saveable.RestoreState(state[saveable.GetUniqueIdentifier()]);
                 
             }
         }

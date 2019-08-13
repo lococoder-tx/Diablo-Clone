@@ -39,7 +39,7 @@ namespace RPG.Core
             if (!removed)
             {
                 
-                Destroy(gameObject.GetComponent<NavMeshAgent>());
+                GetComponent<NavMeshAgent>().enabled = false;
                 removed = true;
             }
 
