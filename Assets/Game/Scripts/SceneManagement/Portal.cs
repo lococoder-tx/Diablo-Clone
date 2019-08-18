@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Security.Cryptography;
+﻿using System.Collections;
 using RPG.Core;
-using RPG.Movement;
 using RPG.Saving;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
+
 
 //uses RPG.CORE
 namespace RPG.SceneManagement
@@ -56,28 +52,25 @@ namespace RPG.SceneManagement
             Fader fader = FindObjectOfType<Fader>();
             SavingWrapper wrapper = FindObjectOfType<SavingWrapper>();
             
-            yield return fader.FadeOut(fadeOutTime);
             
-            //set player to inactive so he cannot be controlled during trans
-            MainPlayer.Instance.gameObject.SetActive(false);
             wrapper.Save();
             
-            
+            yield return fader.FadeOut(fadeOutTime);
             yield return SceneManager.LoadSceneAsync(sceneToLoad);
             
             wrapper.Load();
-           
             
             //change location of player to other portal's spawn point
             Portal otherPortal = GetOtherPortal();
-            UpdatePlayer(otherPortal);
+            UpdatePlayerLocation(otherPortal);
+            
+           
+            
+            //time to wait while screen is faded out
             yield return new WaitForSeconds(betweenFadeTime);
+            wrapper.Save();
             
-            
-            MainPlayer.Instance.gameObject.SetActive(true);
             yield return fader.FadeIn(fadeInTime);
-            
-            
             isTransitioning = false;
             Destroy(this.gameObject);
         }
@@ -98,12 +91,15 @@ namespace RPG.SceneManagement
             return null;
         }
 
-        private void UpdatePlayer(Portal otherPortal)
+        private void UpdatePlayerLocation(Portal otherPortal)
         {
+            MainPlayer.Instance.gameObject.GetComponent<NavMeshAgent>().enabled  = false;
+            
             //change players location on load to pos of spawnPoint 
             MainPlayer.Instance.transform.position = otherPortal.spawnPoint.position;
             MainPlayer.Instance.transform.rotation = otherPortal.spawnPoint.rotation;
-            
+           
+            MainPlayer.Instance.gameObject.GetComponent<NavMeshAgent>().enabled = true;
             
         }
 

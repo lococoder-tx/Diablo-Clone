@@ -1,16 +1,17 @@
 using System.Collections;
+using RPG.Saving;
 using UnityEngine;
 using UnityEngine.AI;
 
 namespace RPG.Core
 {
-    public class Health: MonoBehaviour
+    public class Health: MonoBehaviour, ISaveable
     {
         public float maxHealth;
-        public float currentHealth { get; set; }
+        public float currentHealth;
         private bool isDead = false;
         private bool removed = false;
-       
+        
         void Start()
         {
             currentHealth = maxHealth;
@@ -53,6 +54,17 @@ namespace RPG.Core
             return isDead;
         }
 
-        
+
+        public object CaptureState()
+        {
+            return currentHealth;
+        }
+
+        public void RestoreState(object state)
+        {
+            currentHealth = (float) state;
+            if(currentHealth <= 0)
+                Die();
+        }
     }
 }

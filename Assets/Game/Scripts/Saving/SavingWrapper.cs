@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using RPG.SceneManagement;
+using UnityEngine;
 
 
 
@@ -6,13 +8,18 @@ namespace RPG.Saving
 {
     public class SavingWrapper : MonoBehaviour
     {
-        private const string defaultSaveFile = "save";
+        private const string defaultSaveFile = "defaultSave";
         private SavingSystem savingSystem;
         
-        private void Start()
+        private IEnumerator Start()
         {
             savingSystem = GetComponent<SavingSystem>();
-            
+            Fader fader = FindObjectOfType<Fader>();
+
+            yield return fader.FadeOutImmediately();
+            yield return savingSystem.LoadLastScene(defaultSaveFile);
+            yield return fader.FadeIn();
+
         }
 
         private void Update()
@@ -25,9 +32,7 @@ namespace RPG.Saving
             
             if (Input.GetKeyDown(KeyCode.L))
             {
-               
-                
-               Load();
+                Load();
             }
             
         }
@@ -41,6 +46,13 @@ namespace RPG.Saving
         {
             savingSystem.Load(defaultSaveFile);
         }
-        
+
+        public void LoadLastScene()
+        {
+            StartCoroutine(savingSystem.LoadLastScene(defaultSaveFile));
+        }
+
+
+       
     }
 }

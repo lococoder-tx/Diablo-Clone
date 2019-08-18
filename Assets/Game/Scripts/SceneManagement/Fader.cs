@@ -1,7 +1,6 @@
-﻿using System;
+﻿
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.MemoryProfiler;
 using UnityEngine;
 
 namespace RPG.SceneManagement
@@ -10,9 +9,6 @@ namespace RPG.SceneManagement
     {
         [SerializeField] private CanvasGroup fade;
 
-        
-           
-        #region FadeRegion
         //explain: assuming 60 frames in one second, this fucntion is called 60 * num of seconds time
         public IEnumerator FadeOut(float time = 2f)
         {
@@ -35,9 +31,12 @@ namespace RPG.SceneManagement
                 yield return null;
             }
         }
-        
-        #endregion
 
+        public IEnumerator FadeOutImmediately()
+        {
+            fade.alpha = 1;
+            yield return null;
+        }
        
         //test method for nested coroutines
         public IEnumerator FadeOutIn(float timeOut = 2f, float timeIn = 2f)

@@ -55,6 +55,7 @@ namespace RPG.Combat
                     
                     transform.LookAt(target.transform);
                     mover.Cancel();
+                    
                     //do attacking stuff here
                     AttackBehavior();
 

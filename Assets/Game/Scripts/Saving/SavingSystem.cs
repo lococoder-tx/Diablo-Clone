@@ -1,14 +1,43 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace RPG.Saving
 {
     
     public class SavingSystem : MonoBehaviour
     {
+
+        /*
+         *Loads serialized data from file, but also takes care of scene transition if you are loading in a different
+         * scene than the one currently loaded in
+         */
+        public IEnumerator LoadLastScene(string saveFile)
+        {
+            //1. load in dictionary from save
+            Dictionary<string, object> state = LoadFile(saveFile);
+            
+            //2. check if sceneIndex is in the dictionary
+            if (state.ContainsKey("sceneIndex"))
+            {
+                int buildIndex = (int) state["sceneIndex"];
+
+                //2.5 load the scene
+                if (SceneManager.GetActiveScene().buildIndex != buildIndex)
+                {
+                    yield return SceneManager.LoadSceneAsync(buildIndex);
+                }
+            }
+
+            //3. restore states for objects in scene 
+            RestoreState(state);
+
+        }
+        
         public void Save(string saveFile)
         {
             //load previous serialized dictionary
@@ -32,6 +61,9 @@ namespace RPG.Saving
         }
 
 
+        /*
+         * Load function that does not care about what scene the save file is in. Used by portals
+         */
         public void Load(string saveFile)
         {
             /*
@@ -84,7 +116,10 @@ namespace RPG.Saving
                 else
                     state[uniqueIdentifier] = saveable.CaptureState();
             }
-           
+
+            //key holds int of scene build index (the scene you saved from)
+            state["sceneIndex"] = SceneManager.GetActiveScene().buildIndex;
+
         }
         
    
@@ -127,10 +162,9 @@ namespace RPG.Saving
         //returns path of save file.sav - file paht is in appdata/locallow/defaultcompany
         private string GetPathFromSaveFile(string saveFile)
         {
+            
             return Path.Combine(Application.persistentDataPath, saveFile + ".sav");
         }
-
-    
         
     }
 }
