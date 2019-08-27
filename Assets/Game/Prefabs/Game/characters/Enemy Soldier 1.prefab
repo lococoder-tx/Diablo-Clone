@@ -35,6 +35,10 @@ MonoBehaviour:
   weaponRange: 2
   timeBetweenAttacks: 2
   weaponDamage: 5
+  rightHandPosition: {fileID: 2973571062712225512}
+  equippedweapon: {fileID: 0}
+  testWeaponToSpawn: {fileID: 8850688159232812749, guid: dd5d57c08840bb34b9e0294246ffe48f,
+    type: 3}
   timer: 0
   target: {fileID: 0}
 --- !u!114 &6932246844250427147
@@ -106,6 +110,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+--- !u!4 &2973571062712225512 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 461188, guid: 679ff741e12a7e740819ede24a7000b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2973571062711764844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3561464958118313802
 PrefabInstance:
   m_ObjectHideFlags: 0

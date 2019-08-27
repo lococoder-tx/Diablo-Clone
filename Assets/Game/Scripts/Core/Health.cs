@@ -12,6 +12,9 @@ namespace RPG.Core
         private bool isDead = false;
         private bool removed = false;
         
+        
+        //Note: the way that this is currently written, the value of health when you load a new scene gets overriden by this method
+        //because of script execution order
         void Start()
         {
             currentHealth = maxHealth;
@@ -60,6 +63,9 @@ namespace RPG.Core
             return currentHealth;
         }
 
+       
+        //Note: the way that this is currently written, the value of health when you load a new scene gets overriden by this method
+        //because of script execution order. change start to awake to to fix issue
         public void RestoreState(object state)
         {
             currentHealth = (float) state;

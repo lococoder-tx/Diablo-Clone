@@ -43,6 +43,9 @@ MonoBehaviour:
   weaponRange: 1.4
   timeBetweenAttacks: 1.5
   weaponDamage: 5
+  rightHandPosition: {fileID: 5956290306365898299}
+  equippedweapon: {fileID: 0}
+  testWeaponToSpawn: {fileID: 0}
   timer: 0
   target: {fileID: 0}
 --- !u!114 &8927321506417499780
@@ -199,6 +202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character_Knights_Soldier_01
       objectReference: {fileID: 0}
+    - target: {fileID: 133518, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 417656, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -253,3 +260,9 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3f6fc0cf5e5d31c458bc74ede87cb8ae, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
+--- !u!4 &5956290306365898299 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 423694, guid: 30cf93deff988e74e88a144bd2127c18,
+    type: 3}
+  m_PrefabInstance: {fileID: 5956290306366032181}
+  m_PrefabAsset: {fileID: 0}

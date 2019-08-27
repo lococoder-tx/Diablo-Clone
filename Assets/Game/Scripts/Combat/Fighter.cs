@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using RPG.Core;
 using RPG.Movement;
+using RPG.Saving;
 using UnityEngine;
 
 //uses:
@@ -13,10 +15,17 @@ namespace RPG.Combat
     public class Fighter : MonoBehaviour, IAction
     {
         //these properties relate to weapons and need to be moved
+        [Header("Fighter Stats")]
         [SerializeField] private float weaponRange = 2f;
         [SerializeField] private float timeBetweenAttacks;
         [SerializeField] private float weaponDamage;
         
+        [Header("Weapon")]
+        [SerializeField] private Transform rightHandPosition = null;
+        [SerializeField] private GameObject equippedWeapon = null;
+        [SerializeField] private GameObject testWeaponToSpawn;
+        
+        [Header("")]
         //public float nextAttack = 0;
         public float timer = 20;
 
@@ -27,13 +36,18 @@ namespace RPG.Combat
         private Mover mover;
         private ActionScheduler actionScheduler;
         private Animator anim;
-        void Start()
+        void Awake()
         {
              mover = GetComponent<Mover>();
              actionScheduler = GetComponent<ActionScheduler>();
              anim = GetComponent<Animator>();
         }
-        
+
+        private void Start()
+        {
+            SpawnWeapon(testWeaponToSpawn);
+        }
+
         void Update()
         {
             
@@ -105,6 +119,11 @@ namespace RPG.Combat
         public bool CanAttack(GameObject target)
         {
             return target && !target.GetComponent<Health>().IsDead();
+        }
+
+        public void SpawnWeapon(GameObject weaponToEquip)
+        {
+            equippedWeapon = Instantiate(weaponToEquip, rightHandPosition);
         }
 
         public bool HasTarget()
