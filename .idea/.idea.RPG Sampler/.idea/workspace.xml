@@ -4,12 +4,15 @@
     <list default="true" id="0d614670-2e8a-46c7-8ea3-145c61bcec6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Anim/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Anim/Character.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Game.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Game/Weapons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Game/Weapons/Equipped Sword.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Game/Weapons/Equipped Sword.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Enemy Soldier 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Enemy Soldier 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Village.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Village.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Controller/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Controller/AIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Health.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +20,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>mult</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/AIController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Saving/ISaveable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/FollowCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Combat/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Movement/Mover.cs" root0="FORCE_HIGHLIGHTING" />
@@ -94,6 +93,7 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Saving/SavingWrapper.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Controller/AIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" />
       </list>
     </option>
@@ -184,6 +184,7 @@
       <workItem from="1566598814893" duration="1079000" />
       <workItem from="1566927602636" duration="1383000" />
       <workItem from="1566929659963" duration="610000" />
+      <workItem from="1568913671661" duration="6089000" />
     </task>
     <servers />
   </component>
@@ -223,6 +224,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs</url>
+          <line>63</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs" initialLine="63">
+            <startOffsets>
+              <option value="1907" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1939" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

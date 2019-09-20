@@ -32,13 +32,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1cafa4ed48613d4fad57526a90efa28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponRange: 2
-  timeBetweenAttacks: 2
-  weaponDamage: 5
   rightHandPosition: {fileID: 2973571062712225512}
-  equippedweapon: {fileID: 0}
-  testWeaponToSpawn: {fileID: 8850688159232812749, guid: dd5d57c08840bb34b9e0294246ffe48f,
-    type: 3}
+  equippedWeapon: {fileID: 11400000, guid: bf30e9c81cb2d2049a83355b9df0c4ab, type: 2}
   timer: 0
   target: {fileID: 0}
 --- !u!114 &6932246844250427147

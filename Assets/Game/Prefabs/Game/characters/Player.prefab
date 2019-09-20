@@ -40,12 +40,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1cafa4ed48613d4fad57526a90efa28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponRange: 1.4
-  timeBetweenAttacks: 1.5
-  weaponDamage: 5
   rightHandPosition: {fileID: 5956290306365898299}
-  equippedweapon: {fileID: 0}
-  testWeaponToSpawn: {fileID: 0}
+  equippedWeapon: {fileID: 11400000, guid: bf30e9c81cb2d2049a83355b9df0c4ab, type: 2}
   timer: 0
   target: {fileID: 0}
 --- !u!114 &8927321506417499780
@@ -80,17 +76,17 @@ PrefabInstance:
     - target: {fileID: 9038297596120032153, guid: 37bc44cce0831404eb1918df3847c8d7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -26.4
+      value: 1.35
       objectReference: {fileID: 0}
     - target: {fileID: 9038297596120032153, guid: 37bc44cce0831404eb1918df3847c8d7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.512
+      value: 1.13
       objectReference: {fileID: 0}
     - target: {fileID: 9038297596120032153, guid: 37bc44cce0831404eb1918df3847c8d7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -25.59
+      value: -34.76
       objectReference: {fileID: 0}
     - target: {fileID: 9038297596120032153, guid: 37bc44cce0831404eb1918df3847c8d7,
         type: 3}
@@ -201,10 +197,6 @@ PrefabInstance:
     - target: {fileID: 133518, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
       propertyPath: m_Name
       value: Character_Knights_Soldier_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 133518, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 417656, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
       propertyPath: m_LocalPosition.x

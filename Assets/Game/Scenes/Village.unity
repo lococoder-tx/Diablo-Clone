@@ -190,10 +190,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1822817757280586756, guid: 7e5812406ae3246439ea2daa1ce31d5d,
         type: 3}
-      propertyPath: testWeaponToSpawn
-      value: 
-      objectReference: {fileID: 8850688159232812749, guid: dd5d57c08840bb34b9e0294246ffe48f,
+      propertyPath: weaponRange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1822817757280586756, guid: 7e5812406ae3246439ea2daa1ce31d5d,
         type: 3}
+      propertyPath: timeBetweenAttacks
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e5812406ae3246439ea2daa1ce31d5d, type: 3}
 --- !u!208 &15767683
@@ -761,7 +765,7 @@ PrefabInstance:
     - target: {fileID: 6435558949000753468, guid: ed711a317c351354982d7d16ccc18b17,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Soldier 1 (2)
+      value: Enemy Soldier
       objectReference: {fileID: 0}
     - target: {fileID: 5477122909361462483, guid: ed711a317c351354982d7d16ccc18b17,
         type: 3}

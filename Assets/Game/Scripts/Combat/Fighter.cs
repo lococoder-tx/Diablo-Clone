@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using RPG.Core;
+﻿using RPG.Core;
 using RPG.Movement;
-using RPG.Saving;
 using UnityEngine;
 
 //uses:
@@ -16,19 +12,17 @@ namespace RPG.Combat
     {
         //these properties relate to weapons and need to be moved
         [Header("Fighter Stats")]
-        [SerializeField] private float weaponRange = 2f;
-        [SerializeField] private float timeBetweenAttacks;
-        [SerializeField] private float weaponDamage;
+        //[SerializeField] private float weaponRange = 2f;
+        //[SerializeField] private float timeBetweenAttacks;
+        //[SerializeField] private float weaponDamage;
         
         [Header("Weapon")]
         [SerializeField] private Transform rightHandPosition = null;
-        [SerializeField] private GameObject equippedWeapon = null;
-        [SerializeField] private GameObject testWeaponToSpawn;
-        
-        [Header("")]
-        //public float nextAttack = 0;
-        public float timer = 20;
+        [SerializeField] private Weapon equippedWeapon = null;
 
+        [Header("")]
+        public float timer = 20;
+        
         //references 
         [SerializeField] Health target; //serialized for debug
         
@@ -45,7 +39,9 @@ namespace RPG.Combat
 
         private void Start()
         {
-            SpawnWeapon(testWeaponToSpawn);
+            if (equippedWeapon)
+                equippedWeapon.Spawn(rightHandPosition, anim);
+
         }
 
         void Update()
@@ -80,7 +76,7 @@ namespace RPG.Combat
         private bool InRange()
         {
             var distance =  Mathf.Abs(Vector3.Distance(transform.position, target.transform.position));
-            return distance < weaponRange;
+            return distance < equippedWeapon.GetWeaponRange();
         }
         
 
@@ -93,7 +89,7 @@ namespace RPG.Combat
                 
             }
 
-            else if (timer > timeBetweenAttacks)
+            else if (timer >equippedWeapon.GetTimeBetweenAttacks())
             {
                 anim.ResetTrigger("stopAttack");
                 anim.SetTrigger("attack");
@@ -120,12 +116,7 @@ namespace RPG.Combat
         {
             return target && !target.GetComponent<Health>().IsDead();
         }
-
-        public void SpawnWeapon(GameObject weaponToEquip)
-        {
-            equippedWeapon = Instantiate(weaponToEquip, rightHandPosition);
-        }
-
+        
         public bool HasTarget()
         {
             return target;
@@ -136,14 +127,15 @@ namespace RPG.Combat
         {
             if (!target) return;
             
-            target.TakeDamage(weaponDamage);
+            target.TakeDamage(equippedWeapon.GetWeaponDamage());
             
         }
         
         private void OnDrawGizmos()
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(transform.position, weaponRange);
+            if(equippedWeapon)
+                Gizmos.DrawWireSphere(transform.position,equippedWeapon.GetWeaponRange());
         }
     }
 }
