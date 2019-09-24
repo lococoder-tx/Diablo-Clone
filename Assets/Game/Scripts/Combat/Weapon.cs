@@ -11,12 +11,14 @@ namespace  RPG.Combat
         [SerializeField] private AnimatorOverrideController weaponOverride;
         [SerializeField] private GameObject weaponPrefab;
         [SerializeField] private bool isRightHanded = true;
+        [SerializeField] private Projectile projectile;
         
         [Header("Stats")]
         [SerializeField] private float weaponDamage;
         [SerializeField] private float weaponRange = 2f;
         [SerializeField] private float timeBetweenAttacks;
-       
+
+        private GameObject wepInScene = null;
 
         private const string weaponName = "weapon";
 
@@ -29,8 +31,8 @@ namespace  RPG.Combat
             if (weaponPrefab)
             {
                 Transform handPos = FindTransformOfHand(rightHandPos, lefthandPos);
-                GameObject wep = Instantiate(weaponPrefab, handPos);
-                wep.name = weaponName;
+                wepInScene = Instantiate(weaponPrefab, handPos);
+                wepInScene.name = weaponName;
             }
 
             if(weaponOverride)
@@ -74,6 +76,17 @@ namespace  RPG.Combat
             return timeBetweenAttacks;
         }
 
+        public void SpawnProjectile(Transform target)
+        {
+            var proj = Instantiate(projectile, wepInScene.transform.position, projectile.transform.rotation);
+            proj.SetTarget(target);
+        }
+
+        public bool IsRanged()
+        {
+            return projectile;
+        }
+        
     }
 
 }

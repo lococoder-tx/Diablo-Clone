@@ -107,6 +107,10 @@ namespace RPG.Combat
             {
                 anim.ResetTrigger("stopAttack");
                 anim.SetTrigger("attack");
+                
+                if(equippedWeapon.IsRanged())
+                    equippedWeapon.SpawnProjectile(target.transform);
+                
                 timer = 0;
 
             }
@@ -139,6 +143,7 @@ namespace RPG.Combat
         //animation event
         void Hit()
         {
+            Debug.Log("here");
             if (!target) return;
             
             target.TakeDamage(equippedWeapon.GetWeaponDamage());
