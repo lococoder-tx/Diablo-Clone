@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d614670-2e8a-46c7-8ea3-145c61bcec6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Weapons/Sword.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Weapons/Sword.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Weapons/Unarmed.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Weapons/Unarmed.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Enemy Soldier 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Enemy Soldier 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Village.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Village.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Scriptable Objects/Rapier.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Scriptable Objects/Rapier.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Scriptable Objects/Sword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Scriptable Objects/Sword.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Scriptable Objects/Unarmed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Scriptable Objects/Unarmed.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Saving/SerializableVector3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Combat/CombatTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Prefabs/Game/Pickups/Sword Pickup.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scriptable Objects/Basic Bow.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Character.prefab" root0="FORCE_HIGHLIGHTING" />
@@ -97,9 +90,9 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Pickable.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Combat/PickableWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -190,7 +183,7 @@
       <workItem from="1566927602636" duration="1383000" />
       <workItem from="1566929659963" duration="610000" />
       <workItem from="1568913671661" duration="6089000" />
-      <workItem from="1569282708080" duration="8998000" />
+      <workItem from="1569282708080" duration="10101000" />
     </task>
     <servers />
   </component>

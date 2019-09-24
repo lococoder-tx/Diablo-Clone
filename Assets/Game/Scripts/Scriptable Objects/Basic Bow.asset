@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6633050ac13726345b6f02b2d761dfae, type: 3}
-  m_Name: Rapier
+  m_Name: Basic Bow
   m_EditorClassIdentifier: 
-  weaponOverride: {fileID: 22100000, guid: 8344e5f812a81414ea4a3690384ed042, type: 2}
-  weaponPrefab: {fileID: 8850688159232812749, guid: 99f9e02f3ce206b4592729c1ad4c0990,
+  weaponOverride: {fileID: 22100000, guid: 34bff875d6fa96e41a6b49270dffa436, type: 2}
+  weaponPrefab: {fileID: 8850688159232812749, guid: 368b282eb45707440b04d9d69ccfb403,
     type: 3}
-  isRightHanded: 1
-  weaponDamage: 7
-  weaponRange: 2
-  timeBetweenAttacks: 1.5
+  isRightHanded: 0
+  weaponDamage: 10
+  weaponRange: 10
+  timeBetweenAttacks: 4
