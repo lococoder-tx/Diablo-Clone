@@ -18,7 +18,7 @@ namespace  RPG.Combat
         [SerializeField] private float weaponRange = 2f;
         [SerializeField] private float timeBetweenAttacks;
 
-        private GameObject wepInScene = null;
+       
 
         private const string weaponName = "weapon";
 
@@ -31,7 +31,7 @@ namespace  RPG.Combat
             if (weaponPrefab)
             {
                 Transform handPos = FindTransformOfHand(rightHandPos, lefthandPos);
-                wepInScene = Instantiate(weaponPrefab, handPos);
+                GameObject wepInScene = Instantiate(weaponPrefab, handPos);
                 wepInScene.name = weaponName;
             }
 
@@ -76,9 +76,9 @@ namespace  RPG.Combat
             return timeBetweenAttacks;
         }
 
-        public void SpawnProjectile(Transform target)
+        public void SpawnProjectile(Transform target, Transform rightHand, Transform leftHand)
         {
-            var proj = Instantiate(projectile, wepInScene.transform.position, projectile.transform.rotation);
+            var proj = Instantiate(projectile, FindTransformOfHand(rightHand, leftHand).position, Quaternion.identity);
             proj.SetTarget(target);
         }
 

@@ -109,7 +109,7 @@ namespace RPG.Combat
                 anim.SetTrigger("attack");
                 
                 if(equippedWeapon.IsRanged())
-                    equippedWeapon.SpawnProjectile(target.transform);
+                    equippedWeapon.SpawnProjectile(target.transform, rightHandPosition, leftHandPosition);
                 
                 timer = 0;
 
