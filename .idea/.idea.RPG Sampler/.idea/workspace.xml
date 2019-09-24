@@ -4,16 +4,16 @@
     <list default="true" id="0d614670-2e8a-46c7-8ea3-145c61bcec6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Sampler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Anim/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Anim/Character.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Game.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Game/Weapons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Game/Weapons/Equipped Sword.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Game/Weapons/Equipped Sword.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Weapons/Sword.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Weapons/Sword.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Weapons/Unarmed.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/Weapons/Unarmed.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Enemy Soldier 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Enemy Soldier 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Village.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Village.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +26,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/SceneManagement/Portal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Combat/PickableWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/SceneManagement/Fader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/PatrolPath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Saving/SavingWrapper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -39,6 +40,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/MainPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Saving/SerializableVector3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Combat/CombatTarget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Prefabs/Game/Pickups/Sword Pickup.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Prefabs/Game/characters/Character.prefab" root0="FORCE_HIGHLIGHTING" />
@@ -93,8 +95,11 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Saving/SavingWrapper.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Controller/AIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Pickable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Combat/PickableWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Fighter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Combat/Weapon.cs" />
       </list>
     </option>
   </component>
@@ -185,6 +190,7 @@
       <workItem from="1566927602636" duration="1383000" />
       <workItem from="1566929659963" duration="610000" />
       <workItem from="1568913671661" duration="6089000" />
+      <workItem from="1569282708080" duration="8998000" />
     </task>
     <servers />
   </component>
@@ -224,19 +230,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs</url>
-          <line>63</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Game/Scripts/Controller/PlayerController.cs" initialLine="63">
-            <startOffsets>
-              <option value="1907" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1939" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

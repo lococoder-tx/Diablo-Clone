@@ -10,22 +10,55 @@ namespace  RPG.Combat
         [Header("Core")]
         [SerializeField] private AnimatorOverrideController weaponOverride;
         [SerializeField] private GameObject weaponPrefab;
+        [SerializeField] private bool isRightHanded = true;
         
         [Header("Stats")]
         [SerializeField] private float weaponDamage;
         [SerializeField] private float weaponRange = 2f;
         [SerializeField] private float timeBetweenAttacks;
+       
 
-        public void Spawn(Transform handPos, Animator anim)
+        private const string weaponName = "weapon";
+
+        public void SpawnToPlayer(Transform rightHandPos, Transform lefthandPos, Animator anim)
         {
-            //fields not null (i.e not unarmed)
-            if(weaponPrefab)
-                Instantiate(weaponPrefab, handPos);
+            //unequip preexisting weapon
+            DestroyWeaponOnPlayer(rightHandPos, lefthandPos, anim);
             
+            //fields not null (i.e not unarmed)
+            if (weaponPrefab)
+            {
+                Transform handPos = FindTransformOfHand(rightHandPos, lefthandPos);
+                GameObject wep = Instantiate(weaponPrefab, handPos);
+                wep.name = weaponName;
+            }
+
             if(weaponOverride)
                 anim.runtimeAnimatorController = weaponOverride;
         }
-        
+
+        private Transform FindTransformOfHand(Transform rightHandPos, Transform lefthandPos)
+        {
+            return isRightHanded ? rightHandPos : lefthandPos;
+        }
+
+        public void DestroyWeaponOnPlayer(Transform rightHandPos, Transform leftHandPos, Animator anim)
+        {
+            DestroyWeaponOnHand(rightHandPos);
+            DestroyWeaponOnHand(leftHandPos);
+          
+        }
+
+        private void DestroyWeaponOnHand(Transform handPos)
+        {
+             Transform handWep = handPos.Find(weaponName);
+             if (handWep)
+             {
+                 handWep.name = "DESTROYING";
+                 Destroy(handWep.gameObject);
+             }
+        }
+
         public float GetWeaponDamage()
         {
             return weaponDamage;

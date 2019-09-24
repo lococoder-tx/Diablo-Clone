@@ -33,7 +33,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rightHandPosition: {fileID: 2973571062712225512}
-  equippedWeapon: {fileID: 11400000, guid: bf30e9c81cb2d2049a83355b9df0c4ab, type: 2}
+  leftHandPosition: {fileID: 2973571062712168064}
+  defaultWeapon: {fileID: 11400000, guid: bf30e9c81cb2d2049a83355b9df0c4ab, type: 2}
+  equippedWeapon: {fileID: 0}
   timer: 0
   target: {fileID: 0}
 --- !u!114 &6932246844250427147
@@ -105,6 +107,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+--- !u!4 &2973571062712168064 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 403948, guid: 679ff741e12a7e740819ede24a7000b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2973571062711764844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2973571062712225512 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 461188, guid: 679ff741e12a7e740819ede24a7000b7,

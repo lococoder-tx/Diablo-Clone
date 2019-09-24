@@ -18,6 +18,8 @@ namespace RPG.Combat
         
         [Header("Weapon")]
         [SerializeField] private Transform rightHandPosition = null;
+        [SerializeField] private Transform leftHandPosition = null;
+        [SerializeField] private Weapon defaultWeapon = null;
         [SerializeField] private Weapon equippedWeapon = null;
 
         [Header("")]
@@ -39,11 +41,23 @@ namespace RPG.Combat
 
         private void Start()
         {
-            if (equippedWeapon)
-                equippedWeapon.Spawn(rightHandPosition, anim);
+            EquipWeapon(defaultWeapon);
 
         }
 
+        public void EquipWeapon(Weapon weapon)
+        {
+            equippedWeapon = weapon;
+            weapon.SpawnToPlayer(rightHandPosition, leftHandPosition, anim);
+        }
+
+        public void UnequipWeapon()
+        {
+            if (equippedWeapon == defaultWeapon) return;
+            equippedWeapon.DestroyWeaponOnPlayer(rightHandPosition, leftHandPosition, anim);
+        }
+        
+        
         void Update()
         {
             

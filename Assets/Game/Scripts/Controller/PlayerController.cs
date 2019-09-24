@@ -27,17 +27,28 @@ namespace RPG.Controller
         void Update()
         {
             //print(GetComponent<ActionScheduler>().currentAction);
-            
+
             if (health.IsDead())
                 return;
-            
-            if(InteractWithCombat())
+
+            if (InteractWithCombat())
                 return;
-            
+
+            InteractWithKeyboard();
+
             if (InteractWithMovement())
                 return;
-            
-          //  print("all methods in playerController return false...");
+            //print("all methods in playerController return false...");
+        }
+
+        private void InteractWithKeyboard()
+        {
+            //unequip button
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                fighter.UnequipWeapon();
+            }
+               
         }
 
         private bool InteractWithCombat()

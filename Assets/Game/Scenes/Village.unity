@@ -1651,6 +1651,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1588976109}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1437649389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8038202884318622124, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: a0e4f3572c655324c9c968ddc6ab7605,
+        type: 2}
+    - target: {fileID: 8850688159232812749, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_Name
+      value: Sword Pickup (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -29.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4c4090dbe13f20845ade2955a6c38a21, type: 3}
 --- !u!4 &1535681741 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3811626910915850244, guid: 1421ccbed7c10a24fb6290f6ab85ca44,
@@ -2375,3 +2450,78 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7665404, y: 0.76653725, z: 0.766537}
   m_Center: {x: 0.000000059604645, y: 0.38326862, z: 0}
+--- !u!1001 &8254124044770030124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8038202884318622124, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: cfcea396904ad66498a2bb5fe864f577,
+        type: 2}
+    - target: {fileID: 8850688159232812749, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_Name
+      value: Sword Pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -29.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4c4090dbe13f20845ade2955a6c38a21, type: 3}
