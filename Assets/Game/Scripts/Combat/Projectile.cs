@@ -1,36 +1,42 @@
-﻿
-using RPG.Saving;
+﻿using RPG.Core;
 using UnityEngine;
 
-public class Projectile : MonoBehaviour
+namespace RPG.Combat
 {
-
-    [SerializeField] private Transform target;
-    [SerializeField] private float speed = 5f;
-
-    // Update is called once per frame
-    void Update()
+    public class Projectile : MonoBehaviour
     {
-        transform.LookAt(GetTargetPosition());
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
-        //reset rotation to base of 90 since lookAt fucks with it
-        transform.Rotate(90, 0 ,0);
-    }
 
-    private Vector3 GetTargetPosition()
-    {
-        CapsuleCollider targetCollider = target.GetComponent<CapsuleCollider>();
-        return (target.position + Vector3.up * targetCollider.height / 2);
-    }
+        [SerializeField] private Transform target;
+        [SerializeField] private float speed = 5f;
+        [SerializeField] private float thisProjectileDamage = 0f;
+        private float damage;
 
-    public void SetTarget(Transform target)
-    {
-        this.target = target;
-    }
+        // Update is called once per frame
+        void Update()
+        {
+            transform.LookAt(GetTargetPosition());
+            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject == target.gameObject)
-            Destroy(gameObject);
+        private Vector3 GetTargetPosition()
+        {
+            CapsuleCollider targetCollider = target.GetComponent<CapsuleCollider>();
+            return (target.position + Vector3.up * targetCollider.height / 2);
+        }
+
+        public void SetTarget(Transform target, float damage)
+        {
+            this.target = target;
+            this.damage = damage + thisProjectileDamage;
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject == target.gameObject)
+            {
+                other.GetComponent<Health>().TakeDamage(damage);
+                Destroy(gameObject);
+            }
+        }
     }
 }

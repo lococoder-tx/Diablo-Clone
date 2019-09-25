@@ -32,6 +32,7 @@
               <e p="CombatTarget.cs" t="Include" />
               <e p="Fighter.cs" t="Include" />
               <e p="PickableWeapon.cs" t="Include" />
+              <e p="Projectile.cs" t="Include" />
               <e p="Weapon.cs" t="Include" />
             </e>
             <e p="Controller" t="Include">
@@ -45,6 +46,7 @@
               <e p="FollowCamera.cs" t="Include" />
               <e p="Health.cs" t="Include" />
               <e p="IAction.cs" t="Include" />
+              <e p="ICollectable.cs" t="Include" />
               <e p="MainPlayer.cs" t="Include" />
               <e p="PersistentObjectSpawner.cs" t="Include" />
               <e p="SceneLoader.cs" t="Include" />

@@ -92,7 +92,7 @@ namespace RPG.Controller
 
         private bool IsAttacked()
         {
-            var player = FindObjectOfType<PlayerController>().gameObject;
+            var player = MainPlayer.Instance;
             bool isAttacked = player.GetComponent<Fighter>().target == this.gameObject.GetComponent<Health>();
             return (isAttacked);
         }

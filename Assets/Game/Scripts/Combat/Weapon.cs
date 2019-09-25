@@ -79,7 +79,7 @@ namespace  RPG.Combat
         public void SpawnProjectile(Transform target, Transform rightHand, Transform leftHand)
         {
             var proj = Instantiate(projectile, FindTransformOfHand(rightHand, leftHand).position, Quaternion.identity);
-            proj.SetTarget(target);
+            proj.SetTarget(target, weaponDamage);
         }
 
         public bool IsRanged()

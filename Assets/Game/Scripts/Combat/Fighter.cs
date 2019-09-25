@@ -72,8 +72,7 @@ namespace RPG.Combat
             
             if (!InRange())
             {
-                    Debug.Log("hello");
-                    //player has not reached enemy
+                //player has not reached enemy
                     mover.MoveTo(target.transform.position);
             }
             else //witihn range of target, safe to attack
@@ -146,7 +145,6 @@ namespace RPG.Combat
         //animation event
         void Hit()
         {
-            Debug.Log("here");
             if (!target) return;
             
             target.TakeDamage(equippedWeapon.GetWeaponDamage());
