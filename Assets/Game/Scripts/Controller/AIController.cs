@@ -72,7 +72,7 @@ namespace RPG.Controller
         private void InteractWithCombat()
         {
             //IF ENEMY WITHIN DISTANCE AND PLAYER IS STILL ALIVE 
-            if (DistanceToPlayer() <= chaseDistance && fighter.CanAttack(MainPlayer.Instance.gameObject))
+            if (DistanceToPlayer() <= chaseDistance && fighter.CanAttack(MainPlayer.Instance.gameObject) || IsAttacked())
             {
                 //agent currently sees player
                 AttackBehavior();
@@ -88,6 +88,13 @@ namespace RPG.Controller
                 PatrolBehavior();
             }
 
+        }
+
+        private bool IsAttacked()
+        {
+            var player = FindObjectOfType<PlayerController>().gameObject;
+            bool isAttacked = player.GetComponent<Fighter>().target == this.gameObject.GetComponent<Health>();
+            return (isAttacked);
         }
 
         private void OnDrawGizmos()

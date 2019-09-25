@@ -73,8 +73,10 @@ namespace RPG.Controller
                
                 //validEnemy is true
                 if (Input.GetMouseButtonDown(0))
+                {
                     fighter.Attack(target.gameObject);
-                
+                }
+
                 return true;
             }
 

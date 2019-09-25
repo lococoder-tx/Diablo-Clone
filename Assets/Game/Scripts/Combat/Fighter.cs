@@ -26,7 +26,7 @@ namespace RPG.Combat
         public float timer = 20;
         
         //references 
-        [SerializeField] Health target; //serialized for debug
+        public Health target; //serialized for debug
         
         //cached
         private Mover mover;
@@ -64,6 +64,7 @@ namespace RPG.Combat
             
             timer += Time.deltaTime;
             
+            
             if (!target)
                 return;
             
@@ -71,6 +72,7 @@ namespace RPG.Combat
             
             if (!InRange())
             {
+                    Debug.Log("hello");
                     //player has not reached enemy
                     mover.MoveTo(target.transform.position);
             }
@@ -86,6 +88,7 @@ namespace RPG.Combat
             }
             
         }
+        
 
         private bool InRange()
         {
@@ -155,6 +158,11 @@ namespace RPG.Combat
             Gizmos.color = Color.red;
             if(equippedWeapon)
                 Gizmos.DrawWireSphere(transform.position,equippedWeapon.GetWeaponRange());
+        }
+
+        public void SetTarget(Health other)
+        {
+            target = other;
         }
     }
 }
