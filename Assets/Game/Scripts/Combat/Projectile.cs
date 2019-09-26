@@ -1,21 +1,44 @@
-﻿using RPG.Core;
+﻿using JetBrains.Annotations;
+using RPG.Core;
 using UnityEngine;
 
 namespace RPG.Combat
 {
     public class Projectile : MonoBehaviour
     {
-
+        [Header("Projectile Settings")]
         [SerializeField] private Transform target;
         [SerializeField] private float speed = 5f;
         [SerializeField] private float thisProjectileDamage = 0f;
-        private float damage;
+        [SerializeField] private float projectileDestroySpeed = 5f;
+        [SerializeField] private bool homing = false;
 
+        private float damage;
+        private bool reachedDestination = false;
+        
         // Update is called once per frame
-        void Update()
+        void Start()
         {
             transform.LookAt(GetTargetPosition());
-            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        }
+        
+        void Update()
+        {
+            bool isDead = target.GetComponent<Health>().IsDead();
+            if (!reachedDestination || isDead)
+            {
+                if (homing)
+                    transform.LookAt(GetTargetPosition());
+                
+                transform.Translate(Vector3.forward * speed * Time.deltaTime); 
+               
+                //handle proj that spawn after target is dead
+                if (isDead)
+                {
+                    Destroy(gameObject, 5f);
+                    homing = false;
+                }
+            }
         }
 
         private Vector3 GetTargetPosition()
@@ -32,10 +55,23 @@ namespace RPG.Combat
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject == target.gameObject)
+            
+            //only deal damage if enemy alive and = to target
+            if (other.gameObject == target.gameObject && !target.GetComponent<Health>().IsDead())
             {
                 other.GetComponent<Health>().TakeDamage(damage);
-                Destroy(gameObject);
+                transform.parent = other.transform;
+                
+                //handle last arrow that hits and kills enemy
+                if (other.GetComponent<Health>().IsDead())
+                {
+                    Destroy(gameObject);
+                    return;
+                }
+
+                Destroy(gameObject, projectileDestroySpeed);
+                GetComponentInChildren<TrailRenderer>().enabled = false;
+                reachedDestination = true;
             }
         }
     }

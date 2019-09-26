@@ -1,4 +1,5 @@
-using System.Collections;
+
+using RPG.Combat;
 using RPG.Saving;
 using UnityEngine;
 using UnityEngine.AI;
@@ -37,6 +38,7 @@ namespace RPG.Core
             GetComponent<Animator>().SetTrigger("dead");
             isDead = true;
             GetComponent<ActionScheduler>().CancelAction();
+            RemoveProjectiles();
             
             
             //dESTROY//deactivate STUFF
@@ -71,6 +73,16 @@ namespace RPG.Core
             currentHealth = (float) state;
             if(currentHealth <= 0)
                 Die();
+        }
+
+        public void RemoveProjectiles()
+        {
+            Projectile [] projectiles = GetComponentsInChildren<Projectile>();
+            foreach (Projectile projectile in projectiles)
+            {
+                Destroy(projectile.gameObject);
+                Debug.Log("hello");
+            }
         }
     }
 }

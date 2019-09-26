@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4750687242688692}
   - component: {fileID: 4660093068279401154}
-  - component: {fileID: 8419226763214650784}
   - component: {fileID: 8603525569685824260}
+  - component: {fileID: 513754547935501246}
   m_Layer: 0
   m_Name: Default Arrow
   m_TagString: Untagged
@@ -50,19 +50,7 @@ MonoBehaviour:
   target: {fileID: 0}
   speed: 20
   thisProjectileDamage: 0
---- !u!65 &8419226763214650784
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659504181823486}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.081853, y: 0.81547546, z: 0.081853025}
-  m_Center: {x: 0, y: 0.3894326, z: 0}
+  projectileDestroySpeed: 10
 --- !u!54 &8603525569685824260
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -79,6 +67,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &513754547935501246
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659504181823486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16026707, y: 0.1013608, z: 0.85093874}
+  m_Center: {x: -0.0047912076, y: 0.032375276, z: 0.38454285}
 --- !u!1 &2955675421878113893
 GameObject:
   m_ObjectHideFlags: 0
