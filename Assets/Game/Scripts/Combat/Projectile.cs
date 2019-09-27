@@ -14,7 +14,7 @@ namespace RPG.Combat
         [SerializeField] private bool homing = false;
 
         private float damage;
-        private bool reachedDestination = false;
+        private bool reachedCollider = false;
         
         // Update is called once per frame
         void Start()
@@ -25,7 +25,7 @@ namespace RPG.Combat
         void Update()
         {
             bool isDead = target.GetComponent<Health>().IsDead();
-            if (!reachedDestination || isDead)
+            if (!reachedCollider || isDead)
             {
                 if (homing)
                     transform.LookAt(GetTargetPosition());
@@ -71,7 +71,7 @@ namespace RPG.Combat
 
                 Destroy(gameObject, projectileDestroySpeed);
                 GetComponentInChildren<TrailRenderer>().enabled = false;
-                reachedDestination = true;
+                reachedCollider = true;
             }
         }
     }

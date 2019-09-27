@@ -48,9 +48,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 20
+  speed: 25
   thisProjectileDamage: 0
   projectileDestroySpeed: 10
+  homing: 0
 --- !u!54 &8603525569685824260
 Rigidbody:
   m_ObjectHideFlags: 0
