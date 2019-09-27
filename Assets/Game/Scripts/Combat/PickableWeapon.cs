@@ -8,7 +8,7 @@ public class PickableWeapon : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Fighter fighter = other.GetComponent<Fighter>();
-        if (fighter && other.GetComponent<Fighter>() && other.GetComponent<PlayerController>())
+        if (fighter && other.GetComponent<PlayerController>())
         {
            
             fighter.EquipWeapon(weapon);

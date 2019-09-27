@@ -48,7 +48,7 @@ namespace  RPG.Combat
         {
             DestroyWeaponOnHand(rightHandPos);
             DestroyWeaponOnHand(leftHandPos);
-          
+
         }
 
         private void DestroyWeaponOnHand(Transform handPos)

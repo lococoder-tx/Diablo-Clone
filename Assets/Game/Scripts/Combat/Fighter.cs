@@ -55,6 +55,7 @@ namespace RPG.Combat
         {
             if (equippedWeapon == defaultWeapon) return;
             equippedWeapon.DestroyWeaponOnPlayer(rightHandPosition, leftHandPosition, anim);
+            EquipWeapon(defaultWeapon);
         }
         
         

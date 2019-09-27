@@ -51,7 +51,12 @@ MonoBehaviour:
   speed: 25
   thisProjectileDamage: 0
   projectileDestroySpeed: 10
+  projectileDecaySpeed: 5
   homing: 0
+  hitEffect: {fileID: 2302457091093092515, guid: fa5874c7c4d9e884ca6ecaf53dd888d8,
+    type: 3}
+  minHitVariance: 0
+  maxHitVariance: 1
 --- !u!54 &8603525569685824260
 Rigidbody:
   m_ObjectHideFlags: 0

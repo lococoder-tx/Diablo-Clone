@@ -11,7 +11,15 @@ namespace RPG.Combat
         [SerializeField] private float speed = 5f;
         [SerializeField] private float thisProjectileDamage = 0f;
         [SerializeField] private float projectileDestroySpeed = 5f;
+        [SerializeField] private float projectileDecaySpeed = 5f;
         [SerializeField] private bool homing = false;
+        
+        [Header("FX")]
+        [SerializeField] private GameObject hitEffect = null;
+
+        [Header("Arrow Effect Settings")] 
+        [SerializeField] private float minHitVariance = 0f;
+        [SerializeField] private float maxHitVariance = 1f;
 
         private float damage;
         private bool reachedCollider = false;
@@ -25,6 +33,7 @@ namespace RPG.Combat
         void Update()
         {
             bool isDead = target.GetComponent<Health>().IsDead();
+            
             if (!reachedCollider || isDead)
             {
                 if (homing)
@@ -35,7 +44,7 @@ namespace RPG.Combat
                 //handle proj that spawn after target is dead
                 if (isDead)
                 {
-                    Destroy(gameObject, 5f);
+                    Destroy(gameObject, projectileDecaySpeed);
                     homing = false;
                 }
             }
@@ -44,7 +53,7 @@ namespace RPG.Combat
         private Vector3 GetTargetPosition()
         {
             CapsuleCollider targetCollider = target.GetComponent<CapsuleCollider>();
-            return (target.position + Vector3.up * targetCollider.height / 2);
+            return (target.position + Vector3.up * (targetCollider.height + Random.Range(minHitVariance, maxHitVariance) ) / 2);
         }
 
         public void SetTarget(Transform target, float damage)
@@ -60,8 +69,15 @@ namespace RPG.Combat
             if (other.gameObject == target.gameObject && !target.GetComponent<Health>().IsDead())
             {
                 other.GetComponent<Health>().TakeDamage(damage);
+                transform.position = GetTargetPosition();
                 transform.parent = other.transform;
-                
+
+                if (hitEffect)
+                {
+                    GameObject effect = Instantiate(hitEffect, GetTargetPosition(), Quaternion.identity);
+                    Destroy(effect, 1f);
+                }
+
                 //handle last arrow that hits and kills enemy
                 if (other.GetComponent<Health>().IsDead())
                 {
@@ -70,7 +86,10 @@ namespace RPG.Combat
                 }
 
                 Destroy(gameObject, projectileDestroySpeed);
-                GetComponentInChildren<TrailRenderer>().enabled = false;
+
+                TrailRenderer trail = GetComponentInChildren<TrailRenderer>();
+                if (trail)
+                    trail.enabled = false;
                 reachedCollider = true;
             }
         }
