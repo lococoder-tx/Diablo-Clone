@@ -20,6 +20,7 @@ namespace RPG.Combat
         [Header("Arrow Effect Settings")] 
         [SerializeField] private float minHitVariance = 0f;
         [SerializeField] private float maxHitVariance = 1f;
+        [SerializeField] private GameObject[] destroyOnHit;
 
         private float damage;
         private bool reachedCollider = false;
@@ -68,14 +69,17 @@ namespace RPG.Combat
             //only deal damage if enemy alive and = to target
             if (other.gameObject == target.gameObject && !target.GetComponent<Health>().IsDead())
             {
+                //do damage
                 other.GetComponent<Health>().TakeDamage(damage);
-                transform.position = GetTargetPosition();
+                
+                //calculate decayed arrow (sticking) pos on hit
+                Vector3 targetPos = GetTargetPosition();
+                transform.position = targetPos;
                 transform.parent = other.transform;
 
                 if (hitEffect)
                 {
                     GameObject effect = Instantiate(hitEffect, GetTargetPosition(), Quaternion.identity);
-                    Destroy(effect, 1f);
                 }
 
                 //handle last arrow that hits and kills enemy
@@ -85,11 +89,22 @@ namespace RPG.Combat
                     return;
                 }
 
+                
+                //Destroy incrementally
+                foreach (GameObject gameObjectToDestroy in destroyOnHit)
+                {
+                    Destroy(gameObjectToDestroy);
+                }
+
+                ;
+                //destroy total gameobject
                 Destroy(gameObject, projectileDestroySpeed);
 
                 TrailRenderer trail = GetComponentInChildren<TrailRenderer>();
                 if (trail)
                     trail.enabled = false;
+                
+                
                 reachedCollider = true;
             }
         }

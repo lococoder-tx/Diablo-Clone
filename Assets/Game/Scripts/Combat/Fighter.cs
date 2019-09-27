@@ -1,5 +1,6 @@
 ﻿using RPG.Core;
 using RPG.Movement;
+using RPG.Saving;
 using UnityEngine;
 
 //uses:
@@ -8,7 +9,7 @@ using UnityEngine;
 //health
 namespace RPG.Combat
 {
-    public class Fighter : MonoBehaviour, IAction
+    public class Fighter : MonoBehaviour, IAction, ISaveable
     {
         //these properties relate to weapons and need to be moved
         [Header("Fighter Stats")]
@@ -32,6 +33,7 @@ namespace RPG.Combat
         private Mover mover;
         private ActionScheduler actionScheduler;
         private Animator anim;
+      
         void Awake()
         {
              mover = GetComponent<Mover>();
@@ -41,8 +43,8 @@ namespace RPG.Combat
 
         private void Start()
         {
-            EquipWeapon(defaultWeapon);
-
+            if(!equippedWeapon)
+                EquipWeapon(defaultWeapon);
         }
 
         public void EquipWeapon(Weapon weapon)
@@ -110,10 +112,11 @@ namespace RPG.Combat
             {
                 anim.ResetTrigger("stopAttack");
                 anim.SetTrigger("attack");
-                
-                if(equippedWeapon.IsRanged())
+
+                if (equippedWeapon.IsRanged())
                     equippedWeapon.SpawnProjectile(target.transform, rightHandPosition, leftHandPosition);
                 
+
                 timer = 0;
 
             }
@@ -138,11 +141,6 @@ namespace RPG.Combat
             return target && !target.GetComponent<Health>().IsDead();
         }
         
-        public bool HasTarget()
-        {
-            return target;
-        }
-
         //animation event
         void Hit()
         {
@@ -162,6 +160,18 @@ namespace RPG.Combat
         public void SetTarget(Health other)
         {
             target = other;
+        }
+
+        public object CaptureState()
+        {
+            return equippedWeapon.name;
+        }
+
+        public void RestoreState(object state)
+        {
+            string weaponName = (string) state;
+            Weapon weapon = Resources.Load<Weapon>(weaponName);
+            EquipWeapon(weapon);
         }
     }
 }

@@ -35,8 +35,14 @@ namespace  RPG.Combat
                 wepInScene.name = weaponName;
             }
 
+            var overrideController = anim.runtimeAnimatorController as AnimatorOverrideController;
             if(weaponOverride)
                 anim.runtimeAnimatorController = weaponOverride;
+            else if(overrideController)
+            {
+                //set our anim controller = to the base of the override controllers anim
+                anim.runtimeAnimatorController = overrideController.runtimeAnimatorController;
+            }
         }
 
         private Transform FindTransformOfHand(Transform rightHandPos, Transform lefthandPos)
