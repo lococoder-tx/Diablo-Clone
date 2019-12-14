@@ -198,6 +198,11 @@ PrefabInstance:
       propertyPath: timeBetweenAttacks
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1822817757280586756, guid: 7e5812406ae3246439ea2daa1ce31d5d,
+        type: 3}
+      propertyPath: defaultWeaponName
+      value: Sword
+      objectReference: {fileID: 0}
     - target: {fileID: 5956290306365852761, guid: 7e5812406ae3246439ea2daa1ce31d5d,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -1834,6 +1839,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a0e4f3572c655324c9c968ddc6ab7605,
         type: 2}
+    - target: {fileID: -8038202884318622124, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: respawnTime
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2325,6 +2335,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: aca463bd6b6649c41b5e3398fbc45389,
         type: 2}
+    - target: {fileID: -8038202884318622124, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: respawnTime
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2796,6 +2811,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: cfcea396904ad66498a2bb5fe864f577,
         type: 2}
+    - target: {fileID: -8038202884318622124, guid: 4c4090dbe13f20845ade2955a6c38a21,
+        type: 3}
+      propertyPath: respawnTime
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2024164608871745493, guid: 4c4090dbe13f20845ade2955a6c38a21,
         type: 3}
       propertyPath: m_LocalPosition.x
