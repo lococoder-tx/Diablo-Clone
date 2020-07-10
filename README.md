@@ -8,11 +8,12 @@
   The project contains two scenes that illustrate the various features I have implemented thus far in the prototype. 
   
   ## Features
-  - Point-and-click movement system using Unity's Navmeshing
-  - Save system using serialization
+  - Point-and-click movement system using Unity's Navmeshing (For both enemies and players)
+  - Save and load system using serialization and dictionaries
   - Thorough Enemy AI (Enemies have a vision radius, chase after player, and search for player at last known location)
   - Equipment and Item System (different types of weapons, such as swords, rapiers, bows, magic)
-  - Custom camera system
-  - More that I'm probably missing
+  - Diablo/Path of Exile type camera system that I implemented from scratch 
+  - Awesome low-poly assets provided courtesty of Synty
+  - Character Progression (Leveling System, Character Stats) -- ToDo
   
   
